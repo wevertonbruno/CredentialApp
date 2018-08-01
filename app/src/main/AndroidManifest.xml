@@ -16,7 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TelaCategoria"></activity>
+
+        <activity   android:name=".TelaCategoria"
+                    android:label="@string/telaCategoria"
+                    android:parentActivityName=".TelaLogin"
+            />
+        <activity   android:name=".TelaAtividade"
+                    android:label="@string/nomeAtividade"
+                    android:parentActivityName=".TelaCategoria"></activity>
     </application>
 
 </manifest>

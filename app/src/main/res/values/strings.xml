@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">CredentialApp</string>
+    <string name="app_name">Credenciamento PEV</string>
+    <string name="telaCategoria">Seleção de Categorias</string>
+    <string name="nomeAtividade"></string>
 </resources>
