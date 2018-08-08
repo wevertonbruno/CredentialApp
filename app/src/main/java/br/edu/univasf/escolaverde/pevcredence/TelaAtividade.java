@@ -22,7 +22,8 @@ public class TelaAtividade extends DebugActivity{
         this.setTitle(textoDaTela);
 
         ListView listaDeAtividades = (ListView) findViewById(R.id.listAtividades);
-
+        //Array de strings de exemplo. Deverá ser trocada pela lista do banco de dados.
+        
         String[] exemplos = new String[]{"Atv1", "Atv2", "Atv3", "Atv4"};
 
         ArrayAdapter<String> adapter1 = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, exemplos);
